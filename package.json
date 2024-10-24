@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "autoprefixer": "10.4.17",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.9",
+    "geist": "^1.2.1",
+    "lucide-react": "^0.436.0",
+    "moment": "^2.30.1",
+    "next": "15.0.0",
+    "next-themes": "^0.3.0",
+    "prettier": "^3.3.3",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.6",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "postcss": "8.4.33",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss": "3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.3.3"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+  }
+}
